@@ -1,60 +1,61 @@
-# 🌱 Ecosync Config Files
+# 🌿 EcoSync — Configuration Files
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Microservices-Ecosync-green?style=for-the-badge&logo=leaflet" alt="Ecosync Microservices"/>
-  <br>
-  <img src="https://img.shields.io/badge/Config-Files-blueviolet?style=for-the-badge&logo=yaml" alt="Config Files"/>
+<p style="text-align:center">
+  <img src="https://img.shields.io/badge/EcoSync-Config%20Repo-2b9348?style=for-the-badge&logo=github" alt="Ecosync Config Repo"/>
+  <img src="https://img.shields.io/badge/Microservices-Configs-blue?style=for-the-badge&logo=yaml" alt="Config Files"/>
 </p>
 
 ---
 
-## ✨ Overview
+## Overview
 
-Welcome to the **Ecosync Config Files** repository! 🌍
-
-This repository contains configuration files for the Ecosync microservices. Each YAML file corresponds to a specific service and defines its configuration settings for seamless integration and deployment.
+This repository contains reusable configuration files for the EcoSync microservices. Use these YAML files to configure, test, and deploy service instances consistently across environments.
 
 ---
 
-## 📂 Files Overview
+## Repository Links
 
-| File                     | Description                              |
-|-------------------------|------------------------------------------|
-| automation-service.yml   | Configuration for the Automation Service |
-| crop-service.yml         | Configuration for the Crop Service       |
-| sensor-service.yml       | Configuration for the Sensor Service     |
-| zone-service.yml         | Configuration for the Zone Service       |
+- Config repository: https://github.com/Sachintha-Prabashana/ecosync-config-repo.git
+- Full AGMS project: https://github.com/Sachintha-Prabashana/EcoSync-AGMS.git
 
 ---
 
-## 🚀 Usage
+## Files
 
-1. **Clone this repository:**
-   ```bash
-   git clone <repo-url>
-   ```
-2. **Copy the required YAML files** to your microservice's config directory.
-3. **Update configuration values** as needed for your environment.
-4. **Deploy your microservices** with the updated configuration.
-
-> ⚡ *Tip: Always review and update service URLs, ports, and credentials before deploying to production!*
+| File                     | Purpose                                  |
+|-------------------------:|-----------------------------------------:|
+| api-gateway.yml          | API Gateway configuration                |
+| automation-service.yml   | Automation Service configuration         |
+| crop-service.yml         | Crop Service configuration               |
+| sensor-service.yml       | Sensor Service configuration             |
+| zone-service.yml         | Zone Service configuration               |
 
 ---
 
-## 🌐 Related Project
+## Quick Start
 
-Looking for the main AGMS project? Check out the full codebase here:
+1. Clone the config repo:
 
-[EcoSync AGMS Main Project](https://github.com/Sachintha-Prabashana/EcoSync-AGMS.git)
+   git clone https://github.com/Sachintha-Prabashana/ecosync-config-repo.git
+
+2. Copy the required YAML files into your service's configuration directory.
+3. Edit values (URLs, ports, credentials) to match your environment.
+4. Restart or redeploy the service to apply new configuration.
+
+> Tip: Keep separate files or branches for development and production settings.
 
 ---
 
-## 🛡️ License
+## Contributing
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+Contributions are welcome. Please open an issue or submit a pull request with clear change descriptions. Keep changes to configuration values minimal and document any environment-specific settings.
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Powered%20by-Ecosync%20Microservices-00b894?style=for-the-badge&logo=leaflet" alt="Powered by Ecosync"/>
-</p>
+## License
+
+This repository is provided under the MIT License. See the LICENSE file for details.
+
+---
+
+<p style="text-align:center">Made with care for EcoSync services • Maintained by the EcoSync team</p>
