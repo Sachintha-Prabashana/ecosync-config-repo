@@ -16,6 +16,12 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+iot:
+  provider:
+    url: http://104.211.95.241:8080/api
+    username: "sachintha_p"  
+    password: "12345678" 
+
 eureka:
   client:
     service-url:
