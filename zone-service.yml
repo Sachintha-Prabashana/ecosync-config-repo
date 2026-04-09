@@ -18,7 +18,7 @@ spring:
 
 iot:
   provider:
-    url: http://104.211.95.241:8080/api
+    url: http://localhost:9090
     username: "sachintha_p"  
     password: "12345678" 
 

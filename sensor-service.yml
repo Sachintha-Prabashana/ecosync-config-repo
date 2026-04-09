@@ -4,10 +4,13 @@ server:
 spring:
   application:
     name: sensor-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecosync_sensor_db
 
-external:
-  iot-api:
-    base-url: http://104.211.95.241:8080/api
+iot:
+  provider:
+    url: http://localhost:9090
     username: "sachintha_p"
     password: "12345678"
 
@@ -19,3 +22,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
